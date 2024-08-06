@@ -1,0 +1,80 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #4CAF50;
+    color: #fff;
+    padding: 0.25rem 0; /* Kurangi padding untuk mengurangi tinggi header */
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0.25rem 0; /* Kurangi margin pada h1 di dalam header */
+    font-size: 1.5rem; /* Kurangi ukuran font untuk mengurangi tinggi header */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; /* Kurangi margin pada ul untuk mengurangi tinggi header */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 5px; /* Kurangi margin antara item navigasi untuk mengurangi tinggi header */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.875rem; /* Kurangi ukuran font untuk mengurangi tinggi header */
+}
+
+main {
+    padding: 20px;
+    margin: auto;
+    max-width: 800px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    color: #4CAF50;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
